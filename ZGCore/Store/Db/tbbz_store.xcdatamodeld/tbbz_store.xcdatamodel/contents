@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16E195" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="EFBlobKVStore" representedClassName=".EFBlobKVStore" syncable="YES">
+        <attribute name="z_key" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="z_updated" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="z_value" optional="YES" attributeType="Binary" syncable="YES"/>
+    </entity>
+    <entity name="EFTextKVStore" representedClassName=".EFTextKVStore" syncable="YES">
+        <attribute name="z_key" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="z_updated" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="z_value" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="EFBlobKVStore" positionX="-63" positionY="-18" width="128" height="90"/>
+        <element name="EFTextKVStore" positionX="-36" positionY="9" width="128" height="90"/>
+    </elements>
+</model>
