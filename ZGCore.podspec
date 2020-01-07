@@ -9,9 +9,9 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/ZGComponent-based/ZGCore.git', :tag => s.version}
   s.requires_arc = true
 
-  s.dependency 'CryptoSwift'
-  s.dependency 'SwiftKeychainWrapper'
-  s.dependency 'CoreStore'
+  s.dependency 'CryptoSwift','1.0.0'
+  s.dependency 'SwiftKeychainWrapper','3.4.0'
+  s.dependency 'CoreStore','5.0.6'
   s.frameworks = 'Foundation', 'UIKit', 'SystemConfiguration'
 
   s.swift_version = '5.0'
